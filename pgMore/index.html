@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <body>
+        <!-- Cabeçalho da página -->
+        <header>
+          <h1>Entre em contato conosco</h1>
+        </header>
+    
+        <!-- Seção com informações de contato e formulário de contato -->
+        <section class="container">
+          
+          <!-- Informações de contato -->
+          <div class="contact-info">
+            <h2>Informações de contato</h2>
+    
+            <!-- Endereço -->
+            <div>
+              <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+              <span>Rua dos Contatos, 123</span>
+            </div>
+    
+            <!-- Cidade e Estado -->
+            <div>
+              <span class="icon"><i class="fas fa-city"></i></span>
+              <span>Cidade - Estado</span>
+            </div>
+    
+            <!-- E-mail -->
+            <div>
+              <span class="icon"><i class="fas fa-envelope"></i></span>
+              <span><a href="mailto:contato@contato.com">contato@contato.com</a></span>
+            </div>
+    
+            <!-- Telefone -->
+            <div>
+              <span class="icon"><i class="fas fa-phone"></i></span>
+              <span>(11) 1234-5678</span>
+            </div>
+          </div>
+    
+          <!-- Formulário de contato -->
+          <div class="contact-form">
+            <h2>Para mais informaçoes Entre em contato conosco</h2>
+            <form action="enviar_email.php" method="POST">
+              <label for="nome">Nome:</label>
+              <input type="text" name="nome" id="nome" placeholder="Nome" required />
+    
+              <label for="email">E-mail:</label>
+              <input type="email" name="email" id="email" placeholder="E-mail" required />
+    
+              <label for="assunto">Assunto:</label>
+              <input type="text" name="assunto" id="assunto" placeholder="Assunto" required />
+    
+              <label for="mensagem">Mensagem:</label>
+              <textarea name="mensagem" id="mensagem" placeholder="Mensagem" required></textarea>
+    
+              <input type="submit" value="Enviar" />
+            </form>
+          </div>
+        </section>
+    
+        <!-- Rodapé da página -->
+        <footer>
+          <p>&copy; 2023 - Todos os direitos reservados</p>
+        </footer>
+      </body>
+    <style>
+        
+      /* Define as cores principais do site */
+      :root {
+        --primary-color: #ebd19de1; /* Azul */
+        --secondary-color: #6c757d; /* Cinza escuro */
+        --light-color: #f8f9fa; /* Branco */
+      }
+
+      /* Aplica o estilo ao body */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: var(--light-color);
+      }
+
+      /* Aplica o estilo ao header */
+      header {
+        background-color: var(--primary-color);
+        color: var(--light-color);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+      }
+
+      /* Aplica o estilo ao h1 do header */
+      header h1 {
+        font-size: 2rem;
+        margin: 0;
+      }
+
+      /* Aplica o estilo ao nav do header */
+      header nav ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+      }
+
+      /* Aplica o estilo aos links do nav do header */
+      header nav ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        color: var(--light-color);
+        text-decoration: none;
+        transition: all 0.3s ease;
+      }
+
+      /* Aplica o estilo aos links do nav do header quando hover */
+      header nav ul li a:hover {
+        background-color: var(--secondary-color);
+      }
+
+      /* Aplica o estilo ao container da section */
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+      }
+
+      /* Aplica o estilo à seção das informações de contato */
+      .contact-info {
+        flex-basis: 100%;
+        margin-bottom: 2rem;
+      }
+
+      /* Aplica o estilo ao ícone */
+      .icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        margin-right: 1rem;
+        background-color: var(--primary-color);
+        color: var(--light-color);
+        border-radius: 50%;
+      }
+
+      /* Aplica o estilo ao contato da seção de informações de contato */
+      .contact-info ul li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+      }
+
+      /* Aplica o estilo ao campo de entrada de texto */
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 0.5rem;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+      }
+
+      /* Aplica o estilo ao botão de envio */
+      input[type="submit"] {
+        background-color: var(--primary-color);
+        color: var(--light-color);
+        border: none;
+        padding: 0.5rem 1rem;
+      }
+     
