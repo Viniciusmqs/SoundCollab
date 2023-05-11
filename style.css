@@ -1,0 +1,114 @@
+/* Define o estilo global da página */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define o estilo do cabeçalho */
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+    transition: 5s;
+  }
+  
+  /* Define o estilo da seção principal */
+  
+  main {
+    margin-top: 80px;
+    padding: 40px;
+  }
+  
+  .hero-section {
+    background-color: #dfccae;
+    color: black;
+    padding: 40px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: black;
+    color: #fff;
+    transition: .5s;
+  }
+
+  .cta-button:not(:hover) {
+    background-color: #fff;
+    color: black;
+    transition: .5s;
+  }
+
+
+  
+  /* Define o estilo da seção "Sobre nós" */
+  
+  .about-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+  }
+  
+  /* Define o estilo do rodapé */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
