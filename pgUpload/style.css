@@ -242,7 +242,28 @@ body {
     width: 100%; 
   }
 
+  .cta-button {
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: black;
+    color: #fff;
+    transition: .5s;
+  }
 
+  .cta-button:not(:hover) {
+    background-color: #fff;
+    color: black;
+    transition: .5s;
+  }
   
 
   
