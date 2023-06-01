@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica;
-    color: black;
+    color: #dfccae;
     border: none;
 }
 
@@ -22,28 +22,29 @@ a, label {
 }
 
 a:hover {
-    color: black;
+    color: #dfccae;
 }
 
 .cta-button {
     display: inline-block;
-    background-color: #fff;
+    background-color: #dfccae;;
     color: black;
     border-radius: 4px;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
     margin-top: 20px;
+    font-family: Helvetica;
   }
   
   .cta-button:hover {
     background-color: black;
-    color: #fff;
+    color: #dfccae;;
     transition: .5s;
   }
 
   .cta-button:not(:hover) {
-    background-color: #fff;
+    background-color: #dfccae;;
     color: black;
     transition: .5s;
   }
@@ -51,7 +52,7 @@ a:hover {
 /*CONTAINER LOGIN*/
 
 #login-container {
-    background-color: #FFF;
+    background-color: black;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -79,7 +80,8 @@ label {
 }
 
 input {
-    border-bottom: 2px solid #0000;
+    border-bottom: 2px solid black;
+    background-color: black;
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 20px;
@@ -103,20 +105,20 @@ input[type="submit"] {
     height: 40px;
     border-radius: 20px;
     margin-top: 30px;
-    color: #FFF;
-    background-color: black;
+    color: black;
+    background-color: #dfccae;
     cursor: pointer;
 }
 
 input[type="submit"]:hover{
-    background-color: #dfccae;
-    color: black;
+    background-color: black;
+    color: #dfccae;
     transition: .6s;
 }
 
 input[type="submit"]:not(:hover) {
-    background-color: black;
-    color: #FFF;
+    background-color: #dfccae;
+    color: black;
     transition: .6s;
 }
 
@@ -141,8 +143,8 @@ input[type="submit"]:not(:hover) {
 }
 
 .fa-spotify {
-    background-color: black;
-    color: #70B570;
+    background-color: #70B570;
+    color: black;
 }
 
 /*REGISTRAR*/
