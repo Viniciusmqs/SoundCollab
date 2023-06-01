@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ESQUECEU SUA SENHA?</h1>
-    <a href="../pgLoginN/index.html">Voltar</a>
+    <div id="login-container">
+        <h1>SoundCollab</h1>
+        <br>
+        <h3>Redefinir Senha</h3>
+        <form action="../pgLoginN/index.html" method="get">
+            <label for="password">Nova Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite a senha">
+            <label for="password">Confirme a Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite a senha">
+            <input type="submit" value="redefinir">
+        </form>  
+    </div>
 </body>
 </html>
