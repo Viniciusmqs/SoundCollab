@@ -247,3 +247,14 @@ header {
 .add-cart:hover {
     background: hsl(249, 32%, lightness);
 }
+
+.music-player {
+    display: flex; /* Exibir os elementos em uma linha */
+    align-items: center; /* Alinhar verticalmente os elementos no centro */
+  }
+
+  /* O elemento de áudio */
+  audio {
+    margin-top: 5px; /* Adicionar margem superior para espaçamento */
+    width: 200px; /* Definir a largura do player de música */
+  }

@@ -112,6 +112,40 @@ header {
     padding: 10px;
 }
 
+.product-box {
+    position: relative;
+  }
+  
+  .hover-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: white;
+    padding: 20px;
+    transition: height 0.3s ease-in-out, visibility 0s ease-in-out 0.3s;
+    visibility: hidden;
+  }
+  
+  .hover-container:hover .card-info {
+    height: 100%;
+    visibility: visible;
+    transition-delay: 0s;
+  }
+  
+  .hover-container:not(:hover) .card-info {
+    transition-delay: 0.3s;
+    height: 0;
+    visibility: hidden;
+  }
+  
+
 .detail-box {
     display: grid;
     row-gap: 0.5rem;
@@ -248,3 +282,14 @@ header {
 .add-cart:hover {
     background: hsl(249, 32%, lightness);
 }
+
+.music-player {
+    display: flex; /* Exibir os elementos em uma linha */
+    align-items: center; /* Alinhar verticalmente os elementos no centro */
+  }
+
+  /* O elemento de áudio */
+  audio {
+    margin-top: 5px; /* Adicionar margem superior para espaçamento */
+    width: 200px; /* Definir a largura do player de música */
+  }

@@ -79,6 +79,3 @@ function updatetotal(){
 
 }
 
-function redirecionar() {
-    window.location.href = "../pgConfirm/index.hmtl";
-  }
