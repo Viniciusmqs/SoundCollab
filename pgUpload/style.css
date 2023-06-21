@@ -1,29 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+  font-family: Helvetica;
+
+}    
 body{
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
- 
 }
 
 ::selection{
   color: #fff;
   background: #6990F2;
 }
-.wrapper{
-  width: 430px;
+.wrapper {
+  width: 400px; 
+  min-height: 400px; 
   background: #fff;
   border-radius: 5px;
   padding: 30px;
-  box-shadow: 7px 7px 12px rgba(0,0,0,0.05);
+  box-shadow: 7px 7px 12px rgba(0, 0, 0, 0.05);
 }
+
 .wrapper header{
   color: #6990F2;
   font-size: 27px;
@@ -214,8 +215,6 @@ body {
     color: black;
     transition: .5s;
   }
-
-
   
   /* Define o estilo da seção "Sobre nós" */
   
@@ -264,6 +263,4 @@ body {
     color: black;
     transition: .5s;
   }
-  
-
   
